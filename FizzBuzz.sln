@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FizzBuzz", "FizzBuzz\FizzBuzz.vcxproj", "{E1F83600-0CD2-4D4F-BFDF-B09BF758D5BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FizzBuzzTest", "FizzBuzzTest\FizzBuzzTest.vcxproj", "{504B4537-F553-4FC1-A542-B479BEA7B1AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{E1F83600-0CD2-4D4F-BFDF-B09BF758D5BE}.Debug|Win32.Build.0 = Debug|Win32
 		{E1F83600-0CD2-4D4F-BFDF-B09BF758D5BE}.Release|Win32.ActiveCfg = Release|Win32
 		{E1F83600-0CD2-4D4F-BFDF-B09BF758D5BE}.Release|Win32.Build.0 = Release|Win32
+		{504B4537-F553-4FC1-A542-B479BEA7B1AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{504B4537-F553-4FC1-A542-B479BEA7B1AE}.Debug|Win32.Build.0 = Debug|Win32
+		{504B4537-F553-4FC1-A542-B479BEA7B1AE}.Release|Win32.ActiveCfg = Release|Win32
+		{504B4537-F553-4FC1-A542-B479BEA7B1AE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,7 @@ public:
 	 *   a flag of -3 if the answer should be Fizz
 	 *   the integer if none of the above
 	 */
-	int numberFor(const int index) const;
+	int flagFor(const int index) const;
 
 	/**
 	 * Print the correct answer to the stream.

@@ -1,7 +1,7 @@
 
 #include "FizzBuzz.h"
 
-int FizzBuzz::numberFor(const int index) const
+int FizzBuzz::flagFor(const int index) const
 {
 	if (index % 15 == 0)
 	{
@@ -23,7 +23,7 @@ int FizzBuzz::numberFor(const int index) const
 
 void FizzBuzz::printTo(std::ostream& out, const int index) const
 {
-	int flag = numberFor(index);
+	int flag = flagFor(index);
 	switch (flag)
 	{
 	case -1:
