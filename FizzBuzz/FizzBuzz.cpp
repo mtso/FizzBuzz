@@ -20,3 +20,23 @@ int FizzBuzz::numberFor(const int index) const
 		return index;
 	}
 }
+
+void FizzBuzz::printTo(std::ostream& out, const int index) const
+{
+	int flag = numberFor(index);
+	switch (flag)
+	{
+	case -1:
+		out << "FizzBuzz" << std::endl;
+		break;
+	case -2:
+		out << "Buzz" << std::endl;
+		break;
+	case -3:
+		out << "Fizz" << std::endl;
+		break;
+	default:
+		out << index << std::endl;
+		break;
+	}
+}
