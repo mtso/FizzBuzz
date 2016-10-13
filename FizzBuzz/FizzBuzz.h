@@ -4,6 +4,14 @@
 
 #include <iostream>
 
+enum FB_FLAG
+{
+	FIZZBUZZ,
+	FIZZ,
+	BUZZ,
+	INDEX
+};
+
 class FizzBuzz
 {
 private:
@@ -14,7 +22,7 @@ public:
 	 *   a flag of -3 if the answer should be Fizz
 	 *   the integer if none of the above
 	 */
-	int flagFor(const int index) const;
+	FB_FLAG flagFor(const int index) const;
 
 	/**
 	 * Print the correct answer to the stream.

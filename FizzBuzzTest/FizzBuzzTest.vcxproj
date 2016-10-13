@@ -14,6 +14,7 @@
     <ProjectGuid>{504B4537-F553-4FC1-A542-B479BEA7B1AE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>FizzBuzzTest</RootNamespace>
+    <ProjectName>FizzBuzzTests</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
