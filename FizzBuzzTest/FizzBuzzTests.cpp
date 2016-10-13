@@ -78,5 +78,18 @@ namespace FizzBuzzTest
 
 			Assert::AreEqual(expected, actual);
 		}
+
+		TEST_METHOD(print14ToStream)
+		{
+			std::stringstream ostreamCapture;
+
+			FizzBuzz fb = FizzBuzz();
+			fb.printTo(ostreamCapture, 14);
+
+			std::string actual = ostreamCapture.str();
+			std::string expected = "14\n";
+
+			Assert::AreEqual(expected, actual);
+		}
 	};
 }
